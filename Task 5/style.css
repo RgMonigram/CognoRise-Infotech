@@ -1,0 +1,98 @@
+/* Set background and font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f4f4f4, #d7e1ec);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+	background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the container */
+.converter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style the converter box */
+.converter {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Style form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Style the button */
+button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the result display */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#result span {
+    font-weight: 600;
+    color: #007BFF;
+}
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+    .converter {
+        width: 100%;
+        padding: 20px;
+    }
+}
